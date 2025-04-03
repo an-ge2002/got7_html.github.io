@@ -1,0 +1,161 @@
+*{
+  padding: 5;
+  margin: 5;
+  -webkit-box-sizing: border-box;
+  -brave-box-sizing: border-box;
+  box-sizing: border-box;
+}  
+
+body {
+  background: url('../img/fondo1.jpg') #000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.menu {
+  font-family: Cambria;
+   list-style: none;
+   background-color: rgba(0,0,0,.5);
+   color: red;
+   width: 90%;
+   max-width: 1000px;
+   margin: 20px auto;
+   border-radius: 5px;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a {
+  color: #D5DCB6;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  font-family: Cambria;
+  font-size: 15px;
+}
+
+.menu li a:hover {
+  background-color: rgba(0,0,0,.5);
+  color: #BBF7C0;
+}
+
+.contenedor {
+  font-family: Ginebra;
+  padding: 20px auto;
+  margin: 0 auto; 
+  border-radius: 5px;
+  width: 90%; 
+  max-width: 1000px;
+}
+
+.contenedor h1 {
+  background-color: rgba(0,0,0,.5);
+  font-family: Copperplate;
+  color: #27B56A;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 20px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px; 
+  width: 90%;
+  max-width: 1000px;
+  background-color: rgba(0,0,0,.5); 
+  border-radius: 5px;
+  
+
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  clear: both;
+}
+
+img {
+  margin:10px;
+  padding: 10px;
+}
+
+section.posts1R div.img1 {
+  float: left;
+}
+
+.posts1R p {
+  color: #DDFBDF;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.posts1R h2 {
+  color: #29F57C;
+  font-size: 25px;
+  padding: 15px;
+  margin: 15px;
+}
+
+section.posts2L div.img2 {
+  float: right;
+}
+
+.posts2L p {
+  color: #DDFBDF;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.posts2L h3 {
+  color: #29F57C;
+  font-size: 25px;
+  padding: 15px;
+  margin: 15px;
+}
+
+div .img1 {
+  float: left;
+  clear: both; 
+}
+
+div .imag2 {
+  float: right;
+  clear: both;
+}
+
+@media screen and (max-width:0px) {
+}  
+  .contenedor {
+    font-size: 13px;
+    width: 100%
+  }
+
+  .main {
+    font-size: 14px;
+    width: 100%
+  }
+  
+  aside {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
